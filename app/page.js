@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import {FiDownload} from "react-icons/fi"
 import Socials from "@/components/Socials"
 import Photo from "@/components/Photo"
+import Stats from "@/components/Stats"
 
 
 const Home = () => {
@@ -12,8 +13,8 @@ const Home = () => {
         <div className=" flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           
           {/* text */}
-          <div className="text-center xl:text-left">
-            <span className="text-xl">Software Developer</span>
+          <div className="text-center xl:text-left order-2 xl:order-none ">
+            <span className="text-xl">Software Developer & IT Infrastructure</span>
             <h1 className="h1 mb-6">
               Hello I'am <br/> <span className="text-accent">Bagus Nanda Pratama</span>  
             </h1>
@@ -32,11 +33,12 @@ const Home = () => {
             </div>
           </div>
           {/* photo */}
-          <div className="">
+          <div className="order-1 xl-order-none mb-8 xl:mb-0 ">
             <Photo/>
           </div>
         </div>
       </div>
+      <Stats/>
     </section>
   )
 }
