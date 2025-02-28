@@ -4,6 +4,7 @@ import { Button } from "./ui/button"
 
 // component
 import Navbar from "./Navbar"
+import MobileNavbar from "./MobileNavbar"
 
 const Header = () => {
   return (
@@ -27,7 +28,8 @@ const Header = () => {
 
 
             {/* MOBILE NAVBAR */}
-            <div className="xl:hidden"> Mobile Navbar
+            <div className="xl:hidden">
+              <MobileNavbar/>
             </div>
         </div>
 
