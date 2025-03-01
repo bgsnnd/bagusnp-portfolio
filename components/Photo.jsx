@@ -27,7 +27,7 @@ const Photo = () => {
                     quality={100} 
                     fill 
                     alt="" 
-                    className="objecy-contain" >
+                    className="object-contain" >
                 </Image>
             </motion.div>
         {/* circle */}
